@@ -15,7 +15,7 @@ public class RachaelController {
 
     @GetMapping("/")
     public String index() {
-        return "welcome to Rachael Server 01";
+        return "welcome to Rachael Server 01 from 8082";
     }
 
     @GetMapping("/zuul")
