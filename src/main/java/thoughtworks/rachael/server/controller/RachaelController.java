@@ -20,6 +20,6 @@ public class RachaelController {
 
     @GetMapping("/zuul")
     public String zuulIndex() {
-        return feignConfigClient.zuulIndex();
+        return "??"+feignConfigClient.zuulIndex();
     }
 }
