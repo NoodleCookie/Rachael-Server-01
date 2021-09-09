@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Rachael-Server-02
+    name: Rachael-Server-01
   cloud:
     nacos:
       config:
